@@ -1,0 +1,59 @@
+{
+  "ads": [
+    {
+      "id": "1",
+      "title": "iPhone 13 Pro Max",
+      "description": "Perfect condition. 256GB.",
+      "price": 900,
+      "category": "Electronics",
+      "createdAt": "2025-01-10T10:20:00Z",
+      "status": "pending",
+      "priority": "urgent",
+      "images": [
+        "https://via.placeholder.com/600x400",
+        "https://via.placeholder.com/600x400",
+        "https://via.placeholder.com/600x400"
+      ],
+      "characteristics": {
+        "Brand": "Apple",
+        "Model": "iPhone 13 Pro Max",
+        "Storage": "256GB",
+        "Color": "Graphite"
+      },
+      "seller": {
+        "id": "seller-1",
+        "name": "John Doe",
+        "rating": 4.8,
+        "adsCount": 12,
+        "registeredAt": "2023-04-21T15:00:00Z"
+      },
+      "moderationHistory": []
+    }
+  ],
+  "stats": {
+    "summary": {
+      "totalCheckedToday": 5,
+      "totalCheckedWeek": 38,
+      "totalCheckedMonth": 143,
+      "approvedPercent": 72,
+      "rejectedPercent": 20,
+      "reworkPercent": 8,
+      "avgReviewTimeSec": 35
+    },
+    "activity": [
+      { "date": "2025-02-08", "count": 9 },
+      { "date": "2025-02-09", "count": 12 },
+      { "date": "2025-02-10", "count": 7 }
+    ],
+    "decisions": {
+      "approved": 100,
+      "rejected": 40,
+      "rework": 15
+    },
+    "categories": [
+      { "category": "Electronics", "count": 52 },
+      { "category": "Home", "count": 27 },
+      { "category": "Fashion", "count": 21 }
+    ]
+  }
+}
